@@ -7,7 +7,7 @@ public class PlayerWeapon : MonoBehaviour
     [SerializeField] GameObject[] lazers;
     [SerializeField] RectTransform crosshair;
     [SerializeField] Transform targetPoint;
-    [SerializeField] float targetDistance = 100f;
+    [SerializeField] float targetDistance = 1000f;
 
     // state of the weapon
     bool isFiring = false;
